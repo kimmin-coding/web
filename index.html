@@ -25,48 +25,83 @@
                 font-weight:bold;
             }
             div{
-                
+                position:absolute;
+                left:30%;
             }
+            input{
+                background-color:#FFA500;
+                border-color:#D2691E;
+                color:#D2691E;
+                font-weight:bold;
+                text-shadow : 2px 2px 1px #000000;
+                width:100px;
+                height:100px;
+            }
+            #mario1{
+                position:absolute;
+                left:0%;
+            }
+            #m{
+                background-image:url(./pic/M-icon.png);
+                background-size:100%;
+            }
+            #l{
+                background-image:url(./pic/L-icon.png);
+                background-size:100%;
+            }
+            #td{
+                background-image:url(./pic/KO-icon.png);
+                background-size:100%;
+            }
+            #tl{
+                background-image:url(./pic/KP-icon.png);
+                background-size:100%;
+            }
+            
         </style>
         
     </head>
 
     <body> 
-        <input type="checkbox" value="1">마리오
-        <input type="checkbox" value="2">루이지<br>
-        <input type="radio" value="1" name="radio">키노피오
-        <input type="radio" value="2"name="radio">키노피코
-        <select>
-            <option value="text"> 마리오</option>
-            <option value="text"> 루이지</option>
-        </select>
-        <table>
-                <caption>마리오[Mario mario]</caption>
-                <tr>
-                    <td>이미지</td>
-                    <td><img src="./pic/mario.png" width="50%"></td>
+        <div>
+                <input type="button" value="마리오" id="m">
+                <input type="button" value="루이지" id="l">
+                <input type="button" value="키노피오" id="td">
+                <input type="button" value="키노피코" id="tl"><br>
+
                     
+            <table>
+                    <caption>마리오[Mario mario]</caption>
+                    <tr>
+                        <td>이미지</td>
+                        <td><img src="./pic/mario.png" width="50%"></td>
+
+                    </tr>
+                    <tr>
+                    <td>데뷔작</td><td>마리오 브라더스(1983) & 동킹콩(1981)</td>
+
                 </tr>
                 <tr>
-                <td>데뷔작</td><td>마리오 브라더스(1983) & 동킹콩(1981)</td>
-            
-            </tr>
-            <tr>
-                <td>신장</td><td>약 155cm</td>
-            </tr>
-            <tr>
-                <td>직업</td><td>배관공</td>
-            </tr>
-                
-                
-            </table>
-        <div id=mario1>
-            <b><strong>마리오는 닌텐도의 비디오 게임 마리오 시리즈의 주인공이며 닌텐도의 마스코트라고도 불린다.<br>
-                1990년대 초반 미국의 어린이들을 대상으로 한 조사에서는 미키 마우스보다 인지도가 높게 나타난 최초의 캐릭터로 기록되어 세상을 놀라게 하였다.<br>
-                닌텐도에서 30주년을 맞아 공개한 비하인드 스토리에서 성명이 '마리오 마리오(Mario Mario)'임이 공개되었다.<br>
-                가장 좋아하는 음식은 버섯이지만 슈퍼 마리오 64에서 하는 잠꼬대를 들어보면 이탈리아계답게 스파게티와 라비올리, 라자냐 등의 파스타도 좋아하는 것으로 보인다<br>
-                마리오의 직업은 배관공이지만 배관공 외의 다른 직업으로도 종종 나온다. 마리오가 첫 등장한 동키콩 때는 목수였다. 닥터마리오에서는 의사로 나오고 레킹 크루에서는 철거 용역 노동자로 나오며 권투 게임인 펀치 아웃! 시리즈에서는 권투 심판으로 나온다. 배관공 말고도 워낙 다양한 일(스포츠 등)을 하는 모습으로 등장하니 아예 직업이 마리오라는 의견도 많다.</strong></b>
+                    <td>신장</td><td>약 155cm</td>
+                </tr>
+                <tr>
+                    <td>직업</td><td>배관공</td>
+                </tr>
+                <tr>
+                    <td>이니셜</td><td><img src="./pic/M-icon.png" width="10%"></td>
+                </tr>
+
+
+                </table>
+            <div id=mario1>
+                <b><strong>마리오는 닌텐도의 비디오 게임 마리오 시리즈의 주인공이며 닌텐도의 마스코트라고도 불린다.<br>
+                    1990년대 초반 미국의 어린이들을 대상으로 한 조사에서는 미키 마우스보다 인지도가 높게 나타난 최초의 캐릭터로 기록되어 세상을 놀라게 하였다.<br>
+                    닌텐도에서 30주년을 맞아 공개한 비하인드 스토리에서 성명이 '마리오 마리오(Mario Mario)'임이 공개되었다.<br>
+                    가장 좋아하는 음식은 버섯이지만 슈퍼 마리오 64에서 하는 잠꼬대를 들어보면 이탈리아계답게 스파게티와 라비올리, 라자냐 등의 파스타도 좋아하는 것으로 보인다<br>
+                    마리오의 직업은 배관공이지만 배관공 외의 다른 직업으로도 종종 나온다. 마리오가 첫 등장한 동키콩 때는 목수였다. 닥터마리오에서는 의사로 나오고 레킹 크루에서는 철거 용역 노                동자로 나오며 권투 게임인 펀치 아웃! 시리즈에서는 권투 심판으로 나온다. 배관공 말고도 워낙 다양한 일(스포츠 등)을 하는 모습으로 등장하니 아예 직업이 마리오라는 의견도 많다.</strong></b>
+            </div>
         </div>
+        
         
         
 
